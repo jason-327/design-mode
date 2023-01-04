@@ -8,7 +8,7 @@ import mode.simpleFactory.code.abstractFactory.product.*;
  * @author jason
  * @version 1.0
  * @description: TODO
- * @date 2022/12/12 11:47
+ * @date 2022/12/12 11:48
  */
 public class Main {
 
