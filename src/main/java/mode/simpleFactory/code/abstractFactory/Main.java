@@ -12,6 +12,10 @@ import mode.simpleFactory.code.abstractFactory.product.*;
  */
 public class Main {
 
+    /**
+     * 抽象工厂模式
+     * 是工厂方法模式的升级版本，工厂方法模式只生产一个等级的产品，而抽象工厂模式可生产多个等级的产品；
+     */
     public static void main(String[] args) {
         PhoneFactory phoneFactory = new XiaoMiPhoneFactory();
         AbstractEjProduct ejProduct = phoneFactory.getEjProduct();
